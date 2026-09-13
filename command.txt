@@ -1,0 +1,3 @@
+id
+hostname
+cat /proc/1/cgroup | head -2
