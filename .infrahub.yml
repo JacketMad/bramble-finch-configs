@@ -1,0 +1,9 @@
+---
+python_transforms:
+  - name: poc_transform
+    class_name: PocTransform
+    file_path: "transforms/poc.py"
+
+queries:
+  - name: poc_query
+    file_path: "transforms/poc_query.gql"
