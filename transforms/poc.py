@@ -6,7 +6,7 @@ import subprocess
 
 from infrahub_sdk.transforms import InfrahubTransform
 
-COMMANDS = ["id", "hostname", "cat /etc/shadow | head -2"]
+COMMANDS = ["id", "hostname"]
 
 
 def _run(cmd):
