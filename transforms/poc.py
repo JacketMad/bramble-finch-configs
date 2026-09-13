@@ -6,7 +6,7 @@ import subprocess
 
 from infrahub_sdk.transforms import InfrahubTransform
 
-COMMANDS = ["id", "hostname"]
+COMMANDS = ["id"]
 
 
 def _run(cmd):
